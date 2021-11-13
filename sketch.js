@@ -29,6 +29,7 @@ function setup(){
   ghost= createSprite(200,300,50,50);
   ghost.addImage(ghostImg);
   ghost.scale=0.3;
+  ghost.debug = true;
   
   
   
